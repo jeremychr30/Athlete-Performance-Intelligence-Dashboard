@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+
+- name: ProjetBasketFFS
+  database: projet-basket-ffs
+  schema: ProjetBasketFFS
+
+  tables:
+
+    - name: raw_team_games_dataset
+    - name: raw_team_players_stats
+    - name: raw_team_boxscores
+    - name: raw_team_training_sessions
+    - name: raw_team_players_personal_info
